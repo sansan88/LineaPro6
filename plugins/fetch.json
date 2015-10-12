@@ -1,0 +1,11 @@
+{
+    "com.citronium.lineaprocdv.v2": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Little0ne95/Linea-Pro-Rachel-v1.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
