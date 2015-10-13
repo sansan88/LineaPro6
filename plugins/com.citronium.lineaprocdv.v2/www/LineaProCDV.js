@@ -1,4 +1,4 @@
-var argscheck = require('cordova/argscheck'),
+cordova.define("com.citronium.lineaprocdv.v2.LineaProCDV", function(require, exports, module) { var argscheck = require('cordova/argscheck'),
     channel = require('cordova/channel'),
     utils = require('cordova/utils'),
     exec = require('cordova/exec'),
@@ -62,3 +62,5 @@ LineaProCDV.prototype.onBarcodeData = function(rawCodesArr, scanId, dob, state, 
                
               
 module.exports = new LineaProCDV();
+
+});
